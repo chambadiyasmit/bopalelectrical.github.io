@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.701),rgba(0, 0, 0, 0.737) ),url(emargancy_back.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.form{
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    border: 20px solid white
+}
+.pa{
+   padding: 20px;
+}
+.border{
+    border: 20px solid rgb(105, 167, 177);
+    padding: 20px;
+    margin: 100px;
+    border-radius: 10px;
+    text-align: left;
+}
+.heding{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(196, 206, 247);
+}
+.submit{
+    text-align: center;
+    
+}
+.input{
+     background: none;
+     color: white;
+     font-size: 1.2rem;
+     border: 2px solid white;
+     border-radius: 3px;
+}
+.button-sub{
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(53, 32, 90);
+    border-radius: 10px;
+    border: 3px rgb(55, 9, 156);
+    padding: 5px;
+    
+}
+.select-list{
+    background-color: rgb(21, 16, 86);
+    color: rgb(196, 185, 165);
+}
+

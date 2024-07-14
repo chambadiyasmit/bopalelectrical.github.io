@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+h2{
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(demo2hero.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    border: 5px solid white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+
+.login-form {
+    margin-top: 20px;
+
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    background-color: transparent;
+    transition: border-bottom-color 0.3s;
+}
+
+.input-container input[type="text"]:focus,
+.input-container input[type="password"]:focus {
+    border-bottom-color: #5cb89c;
+}
+
+.input-container i {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: #ffffff;
+}
+
+.input-container i.fa-user,
+.input-container i.fa-lock {
+    font-size: 1rem;
+}
+.forget  :hover{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.submit{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(4, 104, 236);
+    color: white;
+    margin-top: 10px;
+}
+
+    
